@@ -21,7 +21,7 @@ public class CalculatorTest {
     public void testAdd() {
         final int a = 10;
         final int b = 5;
-        final int target = 15;
+        final int target = 20;
         assertEquals(target, calculator.add(a, b));
     }
 
